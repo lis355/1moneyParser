@@ -1,6 +1,8 @@
 Конвертирует базу данных бэкапов приложения `1Money` (https://play.google.com/store/apps/details?id=org.pixelrush.moneyiq)
 
-Для извлечения данных нужно взять бэкап из сотового, с помощью `DB Browser (SQLite)` (https://sqlitebrowser.org/)
+Для извлечения данных нужно взять бэкап из сотового взять крайний бэкап .bak из директории
+`/Android/data/org.pixelrush.moneyiq/files/1Money/backup`
+с помощью `DB Browser (SQLite)` (https://sqlitebrowser.org/)
 сконвертировать бэкап в папку с даннымы в json формате
 
 Указать в .env.local
